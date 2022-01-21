@@ -7,6 +7,7 @@
     --board-padding: min(10vh, 10vw);
 }
 
+/* FONTs */
 @font-face {
     font-family: font_main;
     src: url("../../font/kg-red-hands/KGRedHands.ttf");
@@ -16,6 +17,7 @@
     src: url("../../font/kg-red-hands/KGRedHandsOutline.ttf");
 }
 
+/* MAIN */
 #tictactoe {
     cursor: url("../../img/cursor/cursor.svg"), auto;
     overflow: hidden;
@@ -402,6 +404,7 @@
     }
 }
 
+/* ANIMATIONs */
 @-webkit-keyframes spin {
     0% { transform: rotate(0);}
     100% {transform: rotate(360deg); }
